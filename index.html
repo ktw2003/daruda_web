@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>다루다 교육 | 미래를 여는 창의적 학습</title>
+  <meta name="description" content="창의적 교육과 혁신 프로그램으로 미래를 여는 다루다 교육 공식 랜딩 페이지" />
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- 세련된 글자체: Pretendard + Noto Sans KR + Playfair Display -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand:#2563eb;
+      --ink:#1f2937;
+      --accent:#e0e7ff;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Noto Sans KR', 'Pretendard', sans-serif;
+      color: var(--ink);
+      background-color: #ffffff;
+      line-height: 1.6;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      letter-spacing: -0.02em;
+    }
+    .container-xl { max-width: 1200px; margin: 0 auto; }
+    .glass { backdrop-filter: saturate(180%) blur(10px); background: rgba(255,255,255,0.75); }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white/80 glass">
+    <div class="container-xl px-4">
+      <div class="flex items-center justify-between h-16">
+        <a href="#top" class="flex items-center gap-2">
+          <div class="w-9 h-9 rounded-full bg-[var(--brand)] text-white grid place-items-center font-bold text-lg">Z</div>
+          <span class="font-bold text-gray-800 tracking-tight text-lg">다루다 교육</span>
+        </a>
+        <nav class="hidden md:flex gap-8 text-sm font-medium text-gray-700">
+          <a href="#about" class="hover:text-[var(--brand)] transition">회사소개</a>
+          <a href="#programs" class="hover:text-[var(--brand)] transition">프로그램</a>
+          <a href="#promise" class="hover:text-[var(--brand)] transition">약속</a>
+          <a href="#history" class="hover:text-[var(--brand)] transition">현황</a>
+          <a href="#contact" class="hover:text-[var(--brand)] transition">문의</a>
+          <a href="#contact" class="ml-2 rounded-full bg-[var(--brand)] px-4 py-2 text-white font-semibold shadow-md hover:shadow-lg transition">상담 요청</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="relative pt-32 pb-20 bg-gradient-to-b from-indigo-50 to-white">
+    <div class="container-xl px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-bold leading-tight">
+          <span class="text-[var(--brand)]">창의적 교육</span>으로<br />미래를 여는 <span class="italic text-gray-900">다루다 교육</span>
+        </h1>
+        <p class="mt-6 text-gray-600 text-lg">즐겁게 배우며 생각의 힘을 키우는, 경험 중심의 교육 프로그램을 제공합니다. AI, 진로, 코딩, 리더십 교육으로 학생의 성장 여정을 함께합니다.</p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="#programs" class="bg-[var(--brand)] text-white font-semibold rounded-full px-6 py-3 shadow hover:shadow-lg">프로그램 보기</a>
+          <a href="#contact" class="border border-gray-300 rounded-full px-6 py-3 font-semibold hover:bg-gray-50 transition">문의하기</a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1600&auto=format&fit=crop" alt="교육 현장" class="w-full h-full object-cover"/>
+        </div>
+        <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-lg p-4 w-60 border border-gray-100">
+          <p class="font-semibold text-sm text-gray-800">교육 로드맵</p>
+          <ol class="mt-2 text-xs text-gray-600 list-decimal list-inside space-y-1">
+            <li>사전 상담</li>
+            <li>맞춤 설계</li>
+            <li>강사 매칭</li>
+            <li>현장 운영</li>
+            <li>성과 리포트</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container-xl px-4 grid md:grid-cols-2 gap-12 items-center">
+      <div class="space-y-6">
+        <h2 class="text-3xl md:text-4xl font-bold">회사 소개</h2>
+        <p class="text-gray-700 leading-relaxed">다루다 교육은 아이들이 스스로 배우고 성장하는 과정을 돕습니다. 학교 및 공공기관과 협력하며, 창의력과 사고력을 키우는 체험 중심 교육을 설계합니다.</p>
+        <div class="grid grid-cols-2 gap-6">
+          <div class="rounded-2xl border border-gray-200 p-6 text-center bg-gray-50">
+            <p class="text-4xl font-bold text-[var(--brand)]">8+</p>
+            <p class="text-sm text-gray-600 mt-2">교육 운영 경력(년)</p>
+          </div>
+          <div class="rounded-2xl border border-gray-200 p-6 text-center bg-gray-50">
+            <p class="text-4xl font-bold text-[var(--brand)]">300+</p>
+            <p class="text-sm text-gray-600 mt-2">누적 기관 / 학교</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <img class="rounded-2xl object-cover w-full h-56 shadow" src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1600&auto=format&fit=crop" alt="학습코칭">
+        <img class="rounded-2xl object-cover w-full h-56 shadow" src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1600&auto=format&fit=crop" alt="코딩교육">
+        <img class="rounded-2xl object-cover w-full h-56 shadow" src="https://images.unsplash.com/photo-1557825835-70d97c4aa047?q=80&w=1600&auto=format&fit=crop" alt="AI프로젝트">
+        <img class="rounded-2xl object-cover w-full h-56 shadow" src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1600&auto=format&fit=crop" alt="체험학습">
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="py-20 bg-indigo-50">
+    <div class="container-xl px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">주요 프로그램</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="rounded-3xl bg-white shadow-md hover:shadow-xl transition overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1600&auto=format&fit=crop" class="h-48 w-full object-cover" />
+          <div class="p-6">
+            <h3 class="font-semibold text-lg text-gray-800">AI · 코딩 · 메이커</h3>
+            <p class="mt-2 text-sm text-gray-600">블록코딩부터 AI 프로젝트까지, 창의적 문제 해결력을 키우는 STEAM 기반 수업</p>
+          </div>
+        </div>
+        <div class="rounded-3xl bg-white shadow-md hover:shadow-xl transition overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1600&auto=format&fit=crop" class="h-48 w-full object-cover" />
+          <div class="p-6">
+            <h3 class="font-semibold text-lg text-gray-800">진로 · 진학 설계</h3>
+            <p class="mt-2 text-sm text-gray-600">진로 탐색, 적성 검사, 진학 컨설팅을 통해 학생의 미래를 설계합니다.</p>
+          </div>
+        </div>
+        <div class="rounded-3xl bg-white shadow-md hover:shadow-xl transition overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1600&auto=format&fit=crop" class="h-48 w-full object-cover" />
+          <div class="p-6">
+            <h3 class="font-semibold text-lg text-gray-800">학습코칭 · 리더십</h3>
+            <p class="mt-2 text-sm text-gray-600">학습 습관 개선, 협업 및 리더십 강화 워크숍으로 주도적 학습력을 높입니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promise -->
+  <section id="promise" class="py-20 bg-white">
+    <div class="container-xl px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">다루다 교육의 약속</h2>
+      <div class="grid md:grid-cols-5 gap-6 text-center">
+        <div class="p-6 rounded-2xl bg-indigo-50 border border-indigo-100">
+          <p class="font-semibold text-gray-800">맞춤 설계</p>
+          <p class="text-sm text-gray-600 mt-2">학교별 상황에 맞춘 커리큘럼 제공</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-indigo-50 border border-indigo-100">
+          <p class="font-semibold text-gray-800">전문 강사진</p>
+          <p class="text-sm text-gray-600 mt-2">각 분야 검증된 강사 풀 운영</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-indigo-50 border border-indigo-100">
+          <p class="font-semibold text-gray-800">운영 표준화</p>
+          <p class="text-sm text-gray-600 mt-2">안전·품질 관리 체계 구축</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-indigo-50 border border-indigo-100">
+          <p class="font-semibold text-gray-800">성과 리포트</p>
+          <p class="text-sm text-gray-600 mt-2">교육 성과 및 만족도 보고서 제공</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-indigo-50 border border-indigo-100">
+          <p class="font-semibold text-gray-800">지속 피드백</p>
+          <p class="text-sm text-gray-600 mt-2">다음 단계로 연결되는 피드백</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-indigo-50">
+    <div class="container-xl px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">교육 문의</h2>
+        <p class="text-gray-600 mb-6">프로그램에 관심 있으신가요? 간단히 남겨주시면 빠르게 연락드리겠습니다.</p>
+        <form class="space-y-4">
+          <input type="text" placeholder="학교/기관명" class="w-full border border-gray-300 rounded-full px-5 py-3 focus:ring-2 focus:ring-[var(--brand)]" required>
+          <input type="text" placeholder="담당자명" class="w-full border border-gray-300 rounded-full px-5 py-3 focus:ring-2 focus:ring-[var(--brand)]" required>
+          <input type="tel" placeholder="연락처" class="w-full border border-gray-300 rounded-full px-5 py-3 focus:ring-2 focus:ring-[var(--brand)]" required>
+          <textarea rows="4" placeholder="요청사항 (희망 일정/인원 등)" class="w-full border border-gray-300 rounded-2xl px-5 py-3 focus:ring-2 focus:ring-[var(--brand)]"></textarea>
+          <button type="submit" class="w-full bg-[var(--brand)] text-white rounded-full px-5 py-3 font-semibold shadow hover:shadow-lg transition">문의 보내기</button>
+        </form>
+      </div>
+      <div class="rounded-3xl overflow-hidden shadow-lg border border-gray-200">
+        <iframe title="map" src="https://maps.google.com/maps?q=Seoul&t=&z=13&ie=UTF8&iwloc=&output=embed" class="w-full h-[400px]"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 bg-white border-t border-gray-100 text-center text-sm text-gray-500">
+    <p>© <span id="year"></span> 다루다 교육 | 경기도 의정부시 장곡로596번길 15, 우정프라자 704호 | 사업자번호 000-00-00000</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
